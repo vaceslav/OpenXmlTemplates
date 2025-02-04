@@ -3,7 +3,7 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Validation;
 using NUnit.Framework;
 
-namespace OpenXMLTempaltesTest
+namespace OpenXMLTemplatesTest
 {
     internal static class TestUtils
     {
@@ -12,7 +12,7 @@ namespace OpenXMLTempaltesTest
         /// </summary>
         internal static string CurrentFolder(this object testObject)
         {
-            var type = testObject.GetType().Namespace?.Replace("OpenXMLTempaltesTest.", "").Replace(".", "/");
+            var type = testObject.GetType().Namespace?.Replace("OpenXMLTemplatesTest.", "").Replace(".", "/");
             return TestContext.CurrentContext.TestDirectory + $"/{type}/";
         }
 

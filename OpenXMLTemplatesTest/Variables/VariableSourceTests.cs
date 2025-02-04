@@ -4,7 +4,7 @@ using NUnit.Framework;
 using OpenXMLTemplates.Variables;
 using OpenXMLTemplates.Variables.Exceptions;
 
-namespace OpenXMLTempaltesTest
+namespace OpenXMLTemplatesTest
 {
     public class DataTests
     {

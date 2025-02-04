@@ -6,7 +6,7 @@ using OpenXMLTemplates.ControlReplacers;
 using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Engine;
 using OpenXMLTemplates.Variables;
-namespace OpenXMLTempaltesTest.ControlRemovalTest
+namespace OpenXMLTemplatesTest.ControlRemovalTest
 {
     public class Tests
     {

@@ -5,7 +5,7 @@ using NUnit.Framework;
 using OpenXMLTemplates;
 using OpenXMLTemplates.Utils;
 
-namespace OpenXMLTempaltesTest.CustomPartAdditionTest
+namespace OpenXMLTemplatesTest.CustomPartAdditionTest
 {
     public class CustomPartAdditionTests
     {
@@ -20,8 +20,6 @@ namespace OpenXMLTempaltesTest.CustomPartAdditionTest
 
             Assert.IsNotNull(doc.GetCustomXmlPart("XmlCustomPart"));
             doc.AssertValid();
-
-            doc.Close();
         }
 
         [Test]
@@ -41,8 +39,6 @@ namespace OpenXMLTempaltesTest.CustomPartAdditionTest
             Assert.DoesNotThrow(() => doc.GetCustomXmlParts().Single(e => e.GetNamespace() == "XmlCustomPart"));
 
             doc.AssertValid();
-
-            doc.Close();
         }
 
         private WordprocessingDocument GetDoc()

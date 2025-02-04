@@ -5,7 +5,7 @@ using OpenXMLTemplates.ControlReplacers;
 using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Variables;
 
-namespace OpenXMLTempaltesTest.ControlReplacersTests.
+namespace OpenXMLTemplatesTest.ControlReplacersTests.
     ConditionalControlReplacerTest
 {
     public class Tests
@@ -37,8 +37,6 @@ namespace OpenXMLTempaltesTest.ControlReplacersTests.
             Assert.IsNull(
                 doc.WordprocessingDocument.FindContentControl(replacer.TagName + "_enabled2_and_enabled3_not"));
             doc.WordprocessingDocument.AssertValid();
-
-            doc.Close();
         }
     }
 }

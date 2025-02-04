@@ -7,7 +7,7 @@ using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Engine;
 using OpenXMLTemplates.Variables;
 
-namespace OpenXMLTempaltesTest.EngineTest
+namespace OpenXMLTemplatesTest.EngineTest
 {
     public class EngineTest
     {
@@ -57,7 +57,6 @@ namespace OpenXMLTempaltesTest.EngineTest
 
 
             doc.WordprocessingDocument.AssertValid();
-            doc.Close();
         }
         
         [Test]

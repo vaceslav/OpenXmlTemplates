@@ -7,7 +7,7 @@ using OpenXMLTemplates.ControlReplacers;
 using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Variables;
 
-namespace OpenXMLTempaltesTest.ControlReplacersTests.VariableControlReplacerTests
+namespace OpenXMLTemplatesTest.ControlReplacersTests.VariableControlReplacerTests
 {
     public class Tests
     {

@@ -6,7 +6,7 @@ using OpenXMLTemplates.ControlReplacers;
 using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Variables;
 
-namespace OpenXMLTempaltesTest.ControlReplacersTests.RepeatingControlTests
+namespace OpenXMLTemplatesTest.ControlReplacersTests.RepeatingControlTests
 {
     public class Tests
     {

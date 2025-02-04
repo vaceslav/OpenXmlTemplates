@@ -5,7 +5,7 @@ using OpenXMLTemplates.ControlReplacers.DropdownControlReplacers;
 using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Variables;
 
-namespace OpenXMLTempaltesTest.ControlReplacersTests.DropdownControlReplacersTests.SingularsTest
+namespace OpenXMLTemplatesTest.ControlReplacersTests.DropdownControlReplacersTests.SingularsTest
 {
     public class Tests
     {
@@ -34,8 +34,6 @@ namespace OpenXMLTempaltesTest.ControlReplacersTests.DropdownControlReplacersTes
             Assert.AreEqual("buyer", c2.GetTextElement().Text);
             doc.WordprocessingDocument.AssertValid();
             doc.SaveAs(this.CurrentFolder() + "result.docx");
-
-            doc.Close();
         }
     }
 }

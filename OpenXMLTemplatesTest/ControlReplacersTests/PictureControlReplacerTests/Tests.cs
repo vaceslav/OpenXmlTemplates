@@ -5,7 +5,7 @@ using OpenXMLTemplates.ControlReplacers;
 using OpenXMLTemplates.Documents;
 using OpenXMLTemplates.Variables;
 
-namespace OpenXMLTempaltesTest.ControlReplacersTests.PictureControlReplacerTests
+namespace OpenXMLTemplatesTest.ControlReplacersTests.PictureControlReplacerTests
 {
     public class Tests
     {
